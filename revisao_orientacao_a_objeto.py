@@ -24,9 +24,9 @@ class Cachorro:
 andre = Pessoa(nome='Andre', sobrenome='Sionek', idade=30)
 print(andre)
 
-belisco = Cachorro(nome='Belisco', raca='Lhasa', idade=1.9)
-print(belisco)
-print(belisco.is_cachorro())
+romulo = Cachorro(nome='romulo', raca='Lhasa', idade=1.9)
+print(romulo)
+print(romulo.is_cachorro())
 
 
 class EngenheiroDeDados(Pessoa):
@@ -47,7 +47,7 @@ class CatiorinhoFiaDaPuta(Cachorro):
         return True
 
 
-belisco = CatiorinhoFiaDaPuta(nome='Belisco', raca='Lhasa', idade=1.5)
-print(belisco)
-print(belisco.is_fiadaputa())
-print(belisco.is_cachorro())
+romulo = CatiorinhoFiaDaPuta(nome='romulo', raca='Lhasa', idade=1.5)
+print(romulo)
+print(romulo.is_fiadaputa())
+print(romulo.is_cachorro())
