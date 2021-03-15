@@ -8,7 +8,7 @@ from aws_cdk import (
 import json
 
 from data_platform import Environment
-from common_stack import CommonStack
+from data_platform.common_stack import CommonStack
 from data_platform.data_lake.base import BaseDataLakeBucket
 
 
