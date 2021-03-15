@@ -75,8 +75,8 @@ class RedshiftStack(core.Stack):
 
         self.redshift_cluster = redshift.Cluster(
             self,
-            f"belisco-{self.deploy_env.value}-redshift",
-            cluster_name=f"belisco-{self.deploy_env.value}-redshift",
+            f"romulo-{self.deploy_env.value}-redshift",
+            cluster_name=f"romulo-{self.deploy_env.value}-redshift",
             vpc=self.common_stack.custom_vpc,
             cluster_type=redshift.ClusterType.MULTI_NODE,
             node_type=redshift.NodeType.DC2_LARGE,
