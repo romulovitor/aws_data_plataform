@@ -9,3 +9,4 @@ E adicionar a seguinte política: `AmazonDMSVPCManagementRole`.
 
 
 Mais informações: https://forums.aws.amazon.com/thread.jspa?messageID=921775
+
