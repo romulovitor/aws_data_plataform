@@ -12,5 +12,4 @@ cdk.out
 .idea
 .DS_Store
 pip-wheel-metadata
-bootcamp_data_platform_turma_3/bootcamp_data_platform_turma_3.egg-info
 data_platform/data_platform.egg-info
